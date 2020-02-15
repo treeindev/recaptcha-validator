@@ -1,0 +1,22 @@
+{
+    "name": "treeindev/recaptcha-validator",
+    "type": "library",
+    "description": "Server side validation of Google's reCAPTCHAs for PHP",
+    "keywords": ["recaptcha","validation","google","captcha"],
+    "homepage": "https://github.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miquel Canal",
+            "email": "miquel@treeindev.net",
+            "homepage": "https://treeindev.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "files": ["./src/recaptchaValidator.php"]
+    }
+}
